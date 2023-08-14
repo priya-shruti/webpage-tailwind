@@ -1,0 +1,17 @@
+#grad {
+    background-image: linear-gradient(to right, blue, green);
+    background-size: cover;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h2 span {
+    background: #fff;
+    padding: 0 10px;
+}

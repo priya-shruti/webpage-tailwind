@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <title>Webpage</title>
 </head>
 
 <body>
-    <div class="container">
-        <p class="text-right text-blue-900">Connect with us on
+    <div id="grad">
+        <p class="text-right text-white">Connect with us on
             <a href="https://www.facebook.com"><i class="fa fa-facebook-official cursor-pointer"></i></a>
             <a href="https://www.twitter.com"><i class="fa fa-twitter-square cursor-pointer"></i></a>
             <a href="https://www.google.com"><i class="fa fa-google-plus-circle cursor-pointer"></i></a>
@@ -23,25 +24,72 @@
         <img src="images/img1.png" class="h-20 px-3 rounded-2xl" alt="">
         <nav>
             <ul class="flex space-x-11 mr-5 justify-end">
-                <li class="cursor-pointer">HOME</li>
-                <li class="cursor-pointer">ABOUT</li>
-                <li class="cursor-pointer">REGISTER</li>
-                <li class="cursor-pointer">SEARCH AREA</li>
-                <li class="cursor-pointer">REUNIONS</li>
+                <li class="cursor-pointer text-white">HOME</li>
+                <li class="cursor-pointer text-white">ABOUT</li>
+                <li class="cursor-pointer text-white">REGISTER</li>
+                <li class="cursor-pointer text-blue-300">SEARCH AREA</li>
+                <li class="cursor-pointer text-white">REUNIONS</li>
                 <button class="bg-purple-600 text-white p-2 rounded-lg hover:bg-purple-700">Log out</button>
             </ul>
         </nav>
         <div class="py-40 mx-40 text-3xl">
-            <p>Where people come to<br>reunite instantly!</p>
-            <p class="text-sm pt-4">Our form takes only moments to complete. <br> If there is a potential match you'll
-                know immediately. <br> Also view close results to find other family members.</p>
+            <p class="text-white">Where people come to<br>reunite instantly!</p>
+            <p class="text-sm pt-4 text-white">Our form takes only moments to complete. <br> If there is a potential
+                match you'll
+                know immediately.<br> Also view close results to find other family members.</p>
             <button class="bg-purple-600 text-white p-2 text-sm pl-4 pr-4 rounded-md hover:bg-purple-700"
                 style="float: right;">SEARCH NOW</button>
         </div>
     </div>
-    <div>
-        <p></p>
+
+    <div class="row m-5">
+        <div class="col" , style="display: inline">
+            <i class="fa fa-address-book" aria-hidden="true"></i>
+            <p style="display: inline;">431,917
+                <span class="text-gray-500 text-sm">TOTAL PROFILES</span>
+            </p>
+        </div>
+        <div class="col" , style="display: inline">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="display: inline;">
+                <path
+                    d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z" />
+            </svg>
+            <p style="display: inline;">4,928
+                <span class="text-gray-500 text-sm px-1">PAST MONTH</span>
+            </p>
+        </div>
+        <div class="col" style="display: inline">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="display: inline;">
+                <path
+                    d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z" />
+            </svg>
+            <p style="display: inline;">165
+                <span class="text-gray-500 text-xs" style="display: inline;">PAST DAY</span>
+
+            </p>
+        </div>
+        <div class="col" style="display: inline">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="display: inline;">
+                <path
+                    d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z" />
+            </svg>
+            <p style="display: inline;">5
+                <span class="text-gray-500 text-sm">PAST HOUR</span>
+            </p><br><br><br><br><br>
+        </div>
+        <h2><span class="text-gray-500">REUNIONS</span></h2>
     </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/video.jpg" class="h-28 ml-44">
+        </div>
+        <div class="col">
+            <p class="text-blue-900 font-bold text-lg">Penny</p>
+            <span style="color:black">from</span> <span style="color:lightgreen">ALBANY</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga optio autem minus commodi esse quidem deserunt eaque ipsa! Iste, deleniti distinctio cupiditate, consequuntur unde sapiente quidem aliquam aperiam provident ea repellat. Quidem fugiat minima magnam repellendus amet, cupiditate voluptas neque doloremque quia itaque nobis non ex laboriosam numquam ducimus nam molestiae saepe voluptates, at vel eaque! Aperiam corporis aspernatur minus. Quis labore modi corrupti dolore dolores praesentium! Est odio a voluptatibus atque nobis aliquam ex autem vel, laudantium distinctio? Consequatur doloribus nihil, eveniet laudantium velit eos unde inventore magni voluptas facilis sapiente, debitis, perferendis repudiandae sequi fuga sunt quaerat blanditiis.</p>
+        </div>
+    </div>
+
 </body>
 
 </html>
